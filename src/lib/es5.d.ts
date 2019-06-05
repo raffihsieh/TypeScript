@@ -468,6 +468,9 @@ interface String {
     /** Converts all alphabetic characters to lowercase, taking into account the host environment's current locale. */
     toLocaleLowerCase(): string;
 
+    /** Converts all alphabetic characters to lowercase using the provided locale */
+    toLocaleLowerCase(locale: string): string;
+    
     /** Converts all the alphabetic characters in a string to uppercase. */
     toUpperCase(): string;
 
